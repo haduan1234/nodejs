@@ -1,0 +1,27 @@
+{
+  "name": "advanced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Arrow.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "expess": "0.0.1-security",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "lowdb": "^2.0.3",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
